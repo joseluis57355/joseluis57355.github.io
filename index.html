@@ -4,28 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Mi Portafolio</title>
 </head>
 <body>
-    <header>
-        <h1>Hola, soy [Tu Nombre]</h1>
-        <p>Desarrollador Web | Especialista en [Tecnologías]</p>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Jose Luis Sánchez Tébar</h1>
+            <p>Desarrollador de aplicaciones Web | Especialista en JAVA</p>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#curriculum">Currículum</a></li>
+                   <!-- <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>-->
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyecto">
-            <h3>Proyecto 1</h3>
-            <p>Descripción breve del proyecto.</p>
-            <a href="https://github.com/tu_usuario/proyecto1" target="_blank">Ver en GitHub</a>
-        </div>
-        <!-- Agrega más proyectos aquí -->
-    </section>
+        <section id="inicio">
+            <h2>Bienvenido a mi página</h2>
+            <p>Hola, soy Jose Luis, un desarrollador web apasionado por crear soluciones escalables.</p>
+            <img src="imagenes/imagenPerfil.jpeg" alt="Foto de Jose Luis">
+        </section>
 
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>
+                Desde muy pequeño me ha encantado la informática y cuando descubrí que podía ganarme la vida con ella me centré en eso hasta el día de hoy. Me fascina que cada nueva puerta que abre te muestra muchas otras puertas, siempre hay cosas que aprender. 
+                A lo largo de los años, he tenido la oportunidad de trabajar en diversos proyectos que me han permitido desarrollar y perfeccionar mis habilidades en diferentes áreas de la tecnología. Desde el desarrollo web hasta la ingeniería de software, cada experiencia ha sido una oportunidad para crecer y aprender.
+            </p>
+            <p>
+                Mi pasión por la informática no solo se limita al ámbito profesional, sino que también disfruto explorando nuevas tecnologías y tendencias en mi tiempo libre. Me encanta participar en comunidades de desarrolladores, asistir a conferencias y talleres, y colaborar en proyectos de código abierto. Estas actividades no solo me mantienen actualizado, sino que también me permiten compartir conocimientos y aprender de otros profesionales.
+            </p>
+            <p>
+                Además de mis habilidades técnicas, valoro mucho el trabajo en equipo y la comunicación efectiva. Creo firmemente que la colaboración y el intercambio de ideas son fundamentales para el éxito de cualquier proyecto. Siempre estoy dispuesto a escuchar y aprender de mis compañeros, y me esfuerzo por contribuir de manera positiva al ambiente de trabajo.
+            </p>
+            <p>
+                En resumen, mi amor por la informática y mi deseo constante de aprender y mejorar me impulsan a seguir creciendo como profesional. Estoy emocionado por las oportunidades futuras y por continuar explorando el vasto mundo de la tecnología.
+            </p>
+            <h3>Habilidades</h3>
+            <ul class="skills">
+                <li><strong>Lenguajes de Programación:</strong>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML"><i class="fab fa-html5"></i> HTML</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS"><i class="fab fa-css3-alt"></i> CSS</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><i class="fab fa-js"></i> JavaScript</a></li>
+                        <li><a href="https://www.java.com/es/"><i class="fab fa-java"></i> Java</a></li>
+                        <li><a href="https://www.php.net/"><i class="fab fa-php"></i> PHP</a></li>
+                    </ul>
+                </li>
+                <li><strong>Frameworks y Librerías:</strong>
+                    <ul>
+                        <li><a href="https://spring.io/projects/spring-boot"><i class="fab fa-java"></i> Spring Boot</a></li>
+                        <li><a href="https://sass-lang.com/"><i class="fab fa-sass"></i> SASS</a></li>
+                    </ul>
+                </li>
+                <li><strong>Herramientas de Construcción:</strong>
+                    <ul>
+                        <li><a href="https://maven.apache.org/"><i class="fas fa-tools"></i> Maven</a></li>
+                    </ul>
+                </li>
+                <li><strong>Herramientas de Análisis:</strong>
+                    <ul>
+                        <li><a href="https://www.sonarlint.org/"><i class="fas fa-search"></i> SonarLint</a></li>
+                    </ul>
+                </li>
+                <li><strong>Bases de Datos:</strong>
+                    <ul>
+                        <li><a href="https://www.mysql.com/"><i class="fas fa-database"></i> MySQL</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/SQL"><i class="fas fa-database"></i> SQL</a></li>
+                        <li><a href="https://www.json.org/json-es.html"><i class="fas fa-code"></i> JSON</a></li>
+                    </ul>
+                </li>
+                <li><strong>Entornos de Desarrollo:</strong>
+                    <ul>
+                        <li><a href="https://code.visualstudio.com/"><i class="fas fa-code"></i> Visual Studio Code</a></li>
+                        <li><a href="https://www.eclipse.org/"><i class="fas fa-code"></i> Eclipse</a></li>
+                    </ul>
+                </li>
+                <li><strong>Otras Habilidades:</strong>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/Guide/AJAX"><i class="fas fa-sync-alt"></i> AJAX</a></li>
+                        <li><a href="https://git-scm.com/"><i class="fab fa-git-alt"></i> Git</a></li>
+                        <li><a href="https://github.com/"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="curriculum">
+            <h2>Currículum</h2>
+            <h3>Experiencia Laboral</h3>
+            <ul>
+                <li>
+                    <a href="https://www.insuit.net/es/"><strong>Insuit</strong></a>
+                    <p><em>Puesto de Trabajo:</em> Desarrollador Web</p>
+                    <p><em>Fechas:</em> Febrero 2023 - Septiembre 2024</p>
+                    <p><em>Descripción:</em> Desarrollo y pruebas de una aplicación de accesibilidad la cual se ejecuta sobre los sitios web de los clientes. Tareas
+                        para la parte front (JavaScript, Java, Springboot, Maven, html, css) desde el entorno Eclipse y Visual Studio Code.
+                        Trabajo con una maquina Linux y gestiono las imputaciones desde Jira.</p>
+                </li>
+                <li>
+                    <a href="https://www.indracompany.com/"><strong>Indra</strong></a>
+                    <p><em>Puesto de Trabajo:</em> Desarrollador de Software</p>
+                    <p><em>Fechas:</em> Marzo 2021 - Febrero 2023</p>
+                    <p><em>Descripción:</em> Correcciones y nuevos desarrollos en una aplicación para la GVA que se encarga de gestionar subvenciones. Tareas
+                        tanto para la parte back (Java/Spring), como para el front (html/zk), desde el entorno IntelliJ IDEA. También utilización
+                        de microservicios como herramientas de desarrollo (maven), control de versiones (TortoiseSVN), test y pruebas
+                        (SonarList). Estoy familiarizado con otras aplicaciones de creación de pdf y excel (Jaspersoft), gestion de bases de datos
+                        oracle (sqldeveloper) y gestión de imputaciones (Jira).</p>
+                </li>
+                <li>
+                    <a href="https://ametikool.ee/"><strong>Kuuresaare Ametikool</strong></a>
+                    <p><em>Puesto de Trabajo:</em> Técnico en Sistemas</p>
+                    <p><em>Fechas:</em> Marzo 2019 - Mayo 2019</p>
+                    <p><em>Descripción:</em> Proyecto Erasmus. Administracion de equipos, mantenimiento, instalaciones de red y camaras.</p>
+                </li>
+            </ul>
+            <h3>Educación y formación</h3>
+            <ul>
+                <li>
+                    <a href="https://portal.edu.gva.es/46017675/"><strong>IES La Senia</strong></a>
+                    <p><em>Curso de Estudios:</em> Técnico superior en desarrollo de aplicacinoes web (DAW)</p>
+                    <p><em>Fecha:</em> 2019 - 2021</p>
+                </li>
+                <li>
+                    <a href="https://portal.edu.gva.es/46017675/"><strong>IES La Senia</strong></a>
+                    <p><em>Curso de Estudios:</em> Técnico en sistemas microinformáticos y redes</p>
+                    <p><em>Fecha:</em> 2017 - 2019</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- <section id="portafolio">
+            <h2>Portafolio</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto</p>
+                <a href="https://github.com/tu_usuario/proyecto1" target="_blank">Ver en GitHub</a>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto</p>
+                <a href="https://github.com/tu_usuario/proyecto2" target="_blank">Ver en GitHub</a>
+            </div>
+             Agrega más proyectos aquí
+        </section> -->
+
+       
+
+            <p>Puedes contactarme a través de mi LinkedIn:</p>
+            <ul id="contacto" class="social-links">
+                <li><a href="https://www.linkedin.com/in/jose-luis-s%C3%A1nchez-t%C3%A9bar-14314b19a" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            </ul>
+        </section>
+        
     <footer>
-        <p>Contacto: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
-        <p>© 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:joseluis57355@gmail.com">joseluis57355@gmail.com</a></p>
+        <p>© 2024 Jose Luis Sánchez Tébar. Todos los derechos reservados.</p>
     </footer>
+    </div>
 </body>
 </html>

@@ -1,32 +1,319 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
 }
 
-header {
-    background: #333;
-    color: #fff;
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    text-align: center;
-}
-
-section {
-    padding: 20px;
-}
-
-.proyecto {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
     background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    transition: color 0.3s ease;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Estilos de la sección de inicio */
+#inicio {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#inicio h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+#inicio p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+#inicio img {
+    max-width: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#inicio img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos de la sección sobre mí */
+#sobre-mi {
+    padding: 50px 20px;
+    background-color: #e9e9e9;
+    transition: background-color 0.3s ease;
+}
+
+#sobre-mi h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+#sobre-mi p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+#sobre-mi img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+#sobre-mi img:hover {
+    transform: scale(1.1);
+}
+
+#sobre-mi h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+#sobre-mi ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sobre-mi ul li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sobre-mi ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la lista de habilidades */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: min-content;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills > li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces de habilidades */
+.skills a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+    display: flex;
+    align-items: center;
+}
+.skills a:hover {
+    color: #ff6347; 
+}
+
+.skills a i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.skills a img {
+    margin-right: 8px;
+    width: 24px; 
+    height: 24px; 
+}
+.skills a:hover img {
+    filter: brightness(0.8);
+}
+
+
+/* Estilos para la sección del currículum */
+#curriculum {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#curriculum h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#curriculum h3 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+#curriculum ul {
+    list-style: none;
+    padding: 0;
+}
+
+#curriculum li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#curriculum li strong {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#curriculum li p {
+    margin: 5px 0;
+    color: #666;
+}
+
+#curriculum li p em {
+    font-weight: bold;
+    color: #333;
+}
+
+#curriculum li p:last-child {
+    margin-bottom: 0;
+}
+
+#curriculum a {
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a i {
+    margin-right: 8px;
+}
+
+social-links a:hover {
+    color: #ff6347;
+    transform: scale(1.1);
+}
+
+/* Estilos del pie de página */
 footer {
-    background: #333;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff6347;
 }
