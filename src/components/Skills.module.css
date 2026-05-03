@@ -1,0 +1,203 @@
+.skills {
+    background-color: var(--bg-primary);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header h2 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #00d4ff, #00ff88);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: var(--font-size-lg);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.skillsBlock {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 2.5rem;
+    transition: all var(--transition-normal);
+}
+
+.skillsBlock:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+}
+
+.blockHeader {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.blockHeader h3 {
+    font-size: var(--font-size-xl);
+    color: var(--accent-primary);
+    margin: 0 0 0.75rem 0;
+}
+
+.blockHeader p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.category h4 {
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-secondary);
+    margin: 0;
+    font-weight: 600;
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.skill {
+    display: inline-block;
+}
+
+.skillBadge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 212, 255, 0.1);
+    border: 1px solid var(--accent-primary);
+    border-radius: 0.375rem;
+    color: var(--accent-primary);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    cursor: default;
+}
+
+.skillBadge:hover {
+    background-color: rgba(0, 212, 255, 0.2);
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.skillBadge.secondary {
+    background-color: rgba(0, 255, 136, 0.05);
+    border-color: var(--accent-secondary);
+    color: var(--accent-secondary);
+}
+
+.skillBadge.secondary:hover {
+    background-color: rgba(0, 255, 136, 0.15);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+}
+
+.matrix {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.05), rgba(0, 255, 136, 0.02));
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+
+.matrix h3 {
+    font-size: var(--font-size-xl);
+    color: var(--accent-primary);
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+.matrixGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.matrixItem {
+    padding: 1.5rem;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    text-align: center;
+    transition: all var(--transition-normal);
+}
+
+.matrixItem:hover {
+    border-color: var(--accent-primary);
+    background-color: rgba(0, 212, 255, 0.05);
+    transform: translateY(-4px);
+}
+
+.matrixLevel {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.matrixLabel {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .skillsGrid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .matrixGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .skillsBlock {
+        padding: 1.5rem;
+    }
+
+    .blockHeader {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .categories {
+        gap: 1rem;
+    }
+
+    .matrixGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .matrix {
+        padding: 1.5rem;
+    }
+}
