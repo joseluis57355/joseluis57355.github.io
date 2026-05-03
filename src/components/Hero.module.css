@@ -329,13 +329,30 @@
     }
 
     .codeBg {
+        width: 100%;
         max-width: 100%;
-        max-height: 400px;
-        padding: 1.5rem;
+        aspect-ratio: auto;
+        max-height: 420px;
+        padding: 1rem;
+        overflow: auto;
+        background:
+            linear-gradient(135deg, rgba(0, 212, 255, 0.05), rgba(0, 255, 136, 0.02)),
+            var(--bg-secondary);
+    }
+
+    .codeBg::before {
+        display: none;
+    }
+
+    .codeBlock {
+        min-width: max-content;
+        font-size: 0.72rem;
+        line-height: 1.6;
     }
 
     .codeLine {
-        font-size: 0.75rem;
+        margin-bottom: 0.35rem;
+        white-space: nowrap;
     }
 
     .scroll {
