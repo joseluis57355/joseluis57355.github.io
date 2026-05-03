@@ -1,0 +1,282 @@
+================================================================================
+                        JOSE LUIS SÁNCHEZ
+              Backend Java Developer | Spring Boot | Docker | AWS
+================================================================================
+
+DATOS DE CONTACTO
+─────────────────────────────────────────────────────────────────────────────
+Email: joseluis57355@gmail.com
+Ubicación: Valencia, España
+GitHub: https://github.com/joseluis57355
+LinkedIn: https://www.linkedin.com/in/jose-luis-sanchez-tebar
+Disponibilidad: Inmediata | Carné de conducir | Vehículo propio
+
+RESUMEN PROFESIONAL
+─────────────────────────────────────────────────────────────────────────────
+Desarrollador backend con más de 3 años de experiencia profesional en entornos
+empresariales. Especializado en Java, Spring Boot, APIs REST, arquitectura de
+microservicios, Hibernate/JPA y mantenimiento de aplicaciones en producción.
+
+Experiencia trabajando en proyectos reales con bases de datos Oracle, desarrollo
+backend, resolución de incidencias, mantenimiento evolutivo y adaptación rápida a
+tecnologías del proyecto. Actualmente ampliando mi perfil hacia DevOps y cloud
+mediante proyectos propios con Docker, AWS EC2, GitHub Actions, PostgreSQL,
+Redis y despliegue de aplicaciones Spring Boot.
+
+Busco oportunidades como Backend Developer o Backend Engineer donde pueda aportar
+experiencia práctica en Java/Spring Boot y seguir creciendo en arquitectura,
+cloud, automatización y buenas prácticas de desarrollo.
+
+EXPERIENCIA PROFESIONAL
+─────────────────────────────────────────────────────────────────────────────
+
+INDRA SISTEMAS - Desarrollador de Software
+Período: Marzo 2021 – Febrero 2023 (2 años)
+Ubicación: Madrid
+
+Responsabilidades:
+• Desarrollo y mantenimiento de funcionalidades backend en Java
+• Trabajo con Spring Boot en entorno empresarial
+• Desarrollo de APIs REST y servicios dentro de arquitectura de microservicios
+• Integración con bases de datos Oracle mediante Hibernate/JPA
+• Resolución de incidencias en aplicaciones en producción
+• Mantenimiento evolutivo de aplicaciones empresariales
+• Adaptación a tecnologías del proyecto como ZK Framework y Jaspersoft
+• Trabajo con herramientas corporativas de seguimiento y control de versiones
+
+Tecnologías:
+Java, Spring Boot, APIs REST, Microservicios, Hibernate, JPA, Oracle SQL,
+ZK Framework, Maven, IntelliJ IDEA, TortoiseSVN, Jira, Jaspersoft
+
+Logros:
+✓ Desarrollo y mantenimiento de funcionalidades backend en entorno empresarial
+✓ Resolución de incidencias en sistemas en producción
+✓ Trabajo con arquitectura basada en microservicios
+✓ Integración de lógica backend con persistencia mediante Hibernate/JPA
+✓ Adaptación rápida a tecnologías del proyecto como Spring Boot, ZK y Jaspersoft
+
+
+INSUIT - Desarrollador Web
+Período: Febrero 2023 – Septiembre 2024 (1 año 7 meses)
+Ubicación: Valencia
+
+Responsabilidades:
+• Desarrollo y mantenimiento de aplicaciones web
+• Implementación de mejoras orientadas al cumplimiento de normativas de accesibilidad
+• Trabajo con herramientas de análisis y validación de accesibilidad web
+• Resolución de incidencias en producción
+• Mantenimiento evolutivo de plataforma
+• Mejora de compatibilidad, calidad de código y comportamiento frontend
+• Trabajo con Git como sistema de control de versiones
+
+Tecnologías:
+Java, HTML, HTML5, CSS, JavaScript, Git, herramientas de accesibilidad web
+
+Logros:
+✓ Implementación de mejoras de accesibilidad en más de 50 páginas web
+✓ Aplicación de criterios técnicos orientados a normativas de accesibilidad
+✓ Resolución de incidencias en producción
+✓ Mejora de compatibilidad y calidad de código frontend
+✓ Participación en mantenimiento evolutivo de plataforma web
+
+
+KURESSAARE AMETIKOOL - Técnico de Sistemas
+Período: Marzo 2019 – Mayo 2019 (2 meses) - Programa Erasmus+
+Ubicación: Estonia
+
+Responsabilidades:
+• Administración básica de equipos y sistemas informáticos
+• Instalación y configuración de redes y dispositivos
+• Mantenimiento de infraestructura
+• Soporte técnico en entorno internacional
+
+EDUCACIÓN
+─────────────────────────────────────────────────────────────────────────────
+
+Técnico Superior en Desarrollo de Aplicaciones Web
+IES La Senia, Valencia
+Período: 2019 – 2021
+
+Formación orientada al desarrollo de aplicaciones web completas, incluyendo
+programación backend, frontend, bases de datos, despliegue y trabajo con
+entornos Linux.
+
+Contenidos destacados:
+• Java y programación orientada a objetos
+• PHP y Laravel
+• Diseño de bases de datos
+• HTML, CSS y JavaScript
+• Despliegue de aplicaciones
+• Máquinas virtuales y entornos Linux
+• Desarrollo de proyectos en equipo
+
+
+Técnico en Sistemas Microinformáticos y Redes
+IES La Senia, Valencia
+Período: 2017 – 2019
+
+Formación base en sistemas microinformáticos, redes, soporte técnico, hardware,
+servicios de red y fundamentos web.
+
+Contenidos destacados:
+• Sistemas operativos
+• Redes e infraestructura básica
+• Soporte técnico
+• Hardware y mantenimiento
+• HTML y CSS básico
+• Servicios web y Moodle
+
+FORMACIÓN COMPLEMENTARIA Y PROYECTOS APLICADOS
+─────────────────────────────────────────────────────────────────────────────
+
+Microservices with Spring Boot 3 and Spring Cloud
+Período: 2024 – 2025
+Autoformación técnica basada en el libro de Magnus Larsson, orientada a reforzar
+conocimientos sobre microservicios, Spring Boot, Spring Cloud, arquitectura
+distribuida y patrones habituales en aplicaciones backend modernas.
+
+Proyecto Backend de Gestión de Pedidos
+Período: 2025 – Actualidad
+Proyecto personal orientado a portfolio profesional, desarrollado con Java,
+Spring Boot, PostgreSQL, Redis, Docker, AWS EC2, GitHub Actions, Swagger/OpenAPI,
+JUnit y Mockito.
+
+Portfolio Web Profesional
+Período: 2025 – Actualidad
+Portfolio personal desarrollado con React, CSS Modules, diseño responsive y
+preparado para despliegue web como apoyo a la búsqueda activa de empleo.
+
+Automatización para gestión de ofertas de transporte
+Período: 2025
+Proyecto privado de automatización desarrollado con Python y JavaScript para
+detectar cambios en una plataforma web, agilizar la identificación de nuevas
+ofertas de transporte y apoyar el flujo de contacto mediante integración con
+una aplicación móvil.
+
+STACK TECNOLÓGICO
+─────────────────────────────────────────────────────────────────────────────
+
+EXPERIENCIA PROFESIONAL:
+
+Backend:
+  Java, Spring Boot, Hibernate, JPA, APIs REST, arquitectura de microservicios
+
+Versiones de Java:
+  Java 8, Java 17, Java 21
+
+Bases de Datos:
+  Oracle SQL, modelo relacional
+
+Frontend:
+  ZK Framework, HTML, HTML5, CSS, JavaScript
+
+Herramientas y procesos:
+  Maven, IntelliJ IDEA, VSCode, Eclipse, Jira, TortoiseSVN, Git, Jaspersoft
+
+Entornos empresariales:
+  Soporte a producción, resolución de incidencias, mantenimiento evolutivo,
+  trabajo en equipos técnicos, herramientas corporativas
+
+
+APRENDIZAJE Y PROYECTOS PROPIOS:
+
+Backend moderno:
+  Spring Boot 3, Spring Data JPA, DTOs, mappers, validaciones,
+  manejo de excepciones, Swagger/OpenAPI, Spring Boot Actuator
+
+Bases de Datos y Cache:
+  PostgreSQL, Redis, Spring Cache, H2
+
+Testing:
+  JUnit 5, Mockito, MockMvc, tests unitarios, tests de integración
+
+DevOps & Cloud:
+  Docker, Docker Compose, AWS EC2, GitHub Actions, CI/CD
+
+Frontend moderno:
+  React, CSS Modules, responsive design, GitHub Pages
+
+Observabilidad básica:
+  Logs de aplicación, health checks, Spring Boot Actuator
+
+IA y automatización:
+  Python, web scraping, automatización, uso de LLMs, APIs de IA
+
+Roadmap técnico:
+  Kafka, Kubernetes, Prometheus y Grafana
+
+IDIOMAS
+─────────────────────────────────────────────────────────────────────────────
+Español: Nativo
+Inglés: Avanzado (B2)
+
+PROYECTOS DESTACADOS
+─────────────────────────────────────────────────────────────────────────────
+
+API REST de Gestión de Pedidos
+Portfolio profesional de backend con Java y Spring Boot
+
+Descripción:
+API REST que simula un sistema de gestión de pedidos, aplicando arquitectura
+por capas, persistencia con base de datos relacional, documentación técnica,
+testing, contenerización y despliegue cloud.
+
+Tecnologías:
+Java 21, Spring Boot 3, PostgreSQL, Redis, JPA/Hibernate, Docker, Docker Compose,
+AWS EC2, GitHub Actions, Swagger/OpenAPI, JUnit 5, Mockito, H2
+
+Características:
+• Diseño y desarrollo de API REST
+• Persistencia con PostgreSQL y JPA/Hibernate
+• Arquitectura por capas: Controller → Service → Repository
+• Uso de DTOs y mappers para transferencia de datos
+• Validaciones de entrada y manejo centralizado de excepciones
+• Cache con Redis y Spring Cache
+• Documentación con Swagger/OpenAPI
+• Tests unitarios y de integración con JUnit, Mockito, MockMvc y H2
+• Contenerización con Docker y Docker Compose
+• Despliegue en AWS EC2
+• Automatización mediante GitHub Actions
+• Monitorización básica mediante Spring Boot Actuator
+• Configuración mediante variables de entorno
+
+Repositorio:
+https://github.com/joseluis57355/pedidos
+
+COMPETENCIAS CLAVE
+─────────────────────────────────────────────────────────────────────────────
+✓ Desarrollo backend con Java y Spring Boot
+✓ Diseño y desarrollo de APIs REST
+✓ Trabajo en arquitectura basada en microservicios
+✓ Persistencia con JPA/Hibernate
+✓ Bases de datos relacionales: Oracle SQL y PostgreSQL
+✓ Testing unitario e integración con JUnit, Mockito, MockMvc y H2
+✓ Mantenimiento de aplicaciones en producción
+✓ Resolución de incidencias
+✓ Trabajo con control de versiones: Git y TortoiseSVN
+✓ Docker y contenerización de aplicaciones
+✓ Despliegue de aplicaciones Spring Boot en AWS EC2
+✓ Automatización CI/CD con GitHub Actions
+✓ Uso de Redis como sistema de cache
+✓ Documentación técnica con Swagger/OpenAPI
+✓ Comunicación técnica clara y aprendizaje continuo
+
+INTERESES Y OBJETIVOS
+─────────────────────────────────────────────────────────────────────────────
+Actualmente buscando:
+• Rol de Backend Developer, Java Developer o Backend Engineer
+• Empresa con cultura técnica y buenas prácticas de desarrollo
+• Oportunidades para seguir creciendo en Backend, Cloud y DevOps
+• Proyectos con Java, Spring Boot, APIs REST, microservicios o cloud
+• Equipos donde se valore la mejora continua, la calidad y la autonomía técnica
+
+Dispuesto a:
+• Incorporación inmediata
+• Trabajo remoto, híbrido o presencial en Valencia
+• Reubicación si la oportunidad lo justifica
+• Aprender nuevas tecnologías según las necesidades del proyecto
+• Trabajar en equipos multiculturales
+
+================================================================================
+Última actualización: Mayo 2026
+================================================================================

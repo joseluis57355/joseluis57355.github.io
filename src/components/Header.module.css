@@ -1,0 +1,112 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(15, 15, 30, 0.7);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid transparent;
+    transition: all var(--transition-normal);
+    padding: 1rem 0;
+}
+
+.header.scrolled {
+    background-color: rgba(15, 15, 30, 0.95);
+    border-bottom-color: var(--border-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logoText {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    background: linear-gradient(135deg, #00d4ff, #00ff88);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--accent-primary);
+    border-radius: 0.5rem;
+    color: var(--accent-primary);
+    transition: all var(--transition-fast);
+}
+
+.logo a:hover {
+    background-color: rgba(0, 212, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+.menu {
+    display: flex;
+    gap: 2.5rem;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--text-secondary);
+    position: relative;
+    transition: color var(--transition-fast);
+}
+
+.menu a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    transition: width var(--transition-normal);
+}
+
+.menu a:hover {
+    color: var(--accent-primary);
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.cta {
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        gap: 1rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    .header {
+        padding: 0.75rem 0;
+    }
+}
