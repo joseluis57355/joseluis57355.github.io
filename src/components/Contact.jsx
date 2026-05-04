@@ -10,23 +10,74 @@ function Contact() {
         message: ''
     })
 
-    const [submitted, setSubmitted] = useState(false)
+    const [status, setStatus] = useState({
+        loading: false,
+        success: false,
+        error: ''
+    })
 
     const handleChange = (e) => {
         const { name, value } = e.target
+
         setFormData(prev => ({
             ...prev,
             [name]: value
         }))
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        // Aquí iría la lógica para enviar el email
-        // Por ahora solo simularemos
-        setSubmitted(true)
-        setTimeout(() => setSubmitted(false), 5000)
-        setFormData({ name: '', email: '', subject: '', message: '' })
+
+        setStatus({
+            loading: true,
+            success: false,
+            error: ''
+        })
+
+        const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
+        const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+        const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+
+        const templateParams = {
+            name: formData.name,
+            email: formData.email,
+            subject: formData.subject,
+            message: formData.message
+        }
+
+        try {
+            await emailjs.send(serviceId, templateId, templateParams, {
+                publicKey
+            })
+
+            setStatus({
+                loading: false,
+                success: true,
+                error: ''
+            })
+
+            setFormData({
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            })
+
+            setTimeout(() => {
+                setStatus(prev => ({
+                    ...prev,
+                    success: false
+                }))
+            }, 5000)
+        } catch (error) {
+            console.error('Error al enviar el mensaje:', error)
+
+            setStatus({
+                loading: false,
+                success: false,
+                error: 'No se ha podido enviar el mensaje. Puedes contactarme directamente por email o LinkedIn.'
+            })
+        }
     }
 
     return (
@@ -85,16 +136,22 @@ function Contact() {
 
                         <div className={styles.cvSection}>
                             <h4>Descargar CV</h4>
-                            <a href="/public/CV-Jose-Luis-Sanchez.txt" download className="btn btn-secondary">
+                            <a href="/CV-Jose-Luis-Sanchez.txt" download className="btn btn-secondary">
                                 📄 Descargar CV (txt)
                             </a>
                         </div>
                     </div>
 
                     <div className={styles.form}>
-                        {submitted && (
+                        {status.success && (
                             <div className={styles.successMessage}>
                                 ✓ Mensaje enviado correctamente. Te responderé pronto.
+                            </div>
+                        )}
+
+                        {status.error && (
+                            <div className={styles.errorMessage}>
+                                {status.error}
                             </div>
                         )}
 
@@ -109,6 +166,7 @@ function Contact() {
                                     onChange={handleChange}
                                     required
                                     placeholder="Tu nombre"
+                                    disabled={status.loading}
                                 />
                             </div>
 
@@ -122,6 +180,7 @@ function Contact() {
                                     onChange={handleChange}
                                     required
                                     placeholder="tu@email.com"
+                                    disabled={status.loading}
                                 />
                             </div>
 
@@ -135,6 +194,7 @@ function Contact() {
                                     onChange={handleChange}
                                     required
                                     placeholder="¿Sobre qué quieres hablar?"
+                                    disabled={status.loading}
                                 />
                             </div>
 
@@ -148,11 +208,12 @@ function Contact() {
                                     required
                                     rows="5"
                                     placeholder="Tu mensaje aquí..."
+                                    disabled={status.loading}
                                 ></textarea>
                             </div>
 
-                            <button type="submit" className="btn btn-primary">
-                                Enviar Mensaje
+                            <button type="submit" className="btn btn-primary" disabled={status.loading}>
+                                {status.loading ? 'Enviando...' : 'Enviar Mensaje'}
                             </button>
 
                             <p className={styles.note}>
