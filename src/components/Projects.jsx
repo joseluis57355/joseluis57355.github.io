@@ -71,7 +71,7 @@ function Projects() {
             ],
             status: 'En evolución activa',
             github: 'https://github.com/joseluis57355/pedidos',
-            demo: 'http://18.101.110.59:8080/swagger-ui/index.html',
+            demo: 'http://51.92.190.200:8080/swagger-ui/index.html',
             documentation: 'https://github.com/joseluis57355/pedidos/blob/main/README.md'
         }
     ]
